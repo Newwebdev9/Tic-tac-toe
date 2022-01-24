@@ -1,11 +1,18 @@
 import React from "react";
 
-const Chooser = ({ maze, onChangeMaze, symbol, xIsNext, choosePiece, onStart }) => {
+const Chooser = ({
+  maze,
+  onChangeMaze,
+  symbol,
+  xIsNext,
+  choosePiece,
+  onStart
+}) => {
   return (
     <div
       className={"piece-chooser-wrap" + (symbol === xIsNext ? "" : " inactive")}
     >
-      <h1>Enter the maze (e.g. 3x3, 4x4, 5x5)</h1>
+      <h1>Pick Your difficulty (e.g. 3x3, 4x4, 5x5)</h1>
       <div className="piece-chooser">
         <input type="text" onChange={(e) => onChangeMaze(e)} value={maze} />
       </div>
@@ -15,7 +22,9 @@ const Chooser = ({ maze, onChangeMaze, symbol, xIsNext, choosePiece, onStart }) 
         <span>or</span>
         <button className="side-x" onClick={() => choosePiece("x")}></button>
       </div>
-      <button className="start-button" onClick={onStart}>Start the Game</button>
+      <button className="start-button" onClick={onStart}>
+        Start the Game
+      </button>
     </div>
   );
 };
