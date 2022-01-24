@@ -1,0 +1,143 @@
+/* body {
+  margin: 10px;
+  padding: 10px;
+  font-family: 'sans-serif';
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  font-family: "serif";
+  font-weight: 700;
+  font-size: 13px;
+  color: #3f8fda;
+}
+
+.game-wrap {
+  max-width: 400px;
+  margin: 60px auto 0;
+  padding: 20px 20px 30px;
+  border: 1px solid #25cf6c;
+  box-sizing: border-box;
+  box-shadow: 1px 6px 30px 0 rgba(#79cadc, 0.4);
+
+  @media (max-width: 480px) {
+    margin-top: 10px;
+  }
+
+  button {
+    outline: 0;
+    border: 0;
+    background: transparent no-repeat center;
+    background-size: cover;
+  }
+
+  .piece-chooser-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(rgb(247, 247, 244), 0.95);
+    z-index: 9;
+    padding: 60px 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-name: slideFadeUp;
+
+    &.inactive {
+      animation-name: slideFadeDown;
+    }
+
+    h1 {
+      font-size: 21px;
+      margin: 36px 0;
+    }
+
+    .piece-chooser {
+      display: flex;
+      justify-content: center;
+      margin: 36px 0;
+
+      span {
+        margin: auto 15px;
+        color: #b1bbc6;
+        font-size: 24px;
+      }
+      input[type="text"] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid rgb(165, 59, 59);
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: "serif";
+        color: #050505;
+      }
+    }
+
+    button {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      transition: all 0.1s;
+
+
+    .start-button {
+      font-size: 13px;
+      border: 0.1px solid #8dbdbf;
+      border-radius: 4px;
+      height: auto;
+      cursor: pointer;
+      width: 105px;
+      padding: 4px 0;
+      font-family: "Ubuntu";
+      color: #e78718;
+    }
+
+
+
+
+
+  .main-board-three {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main-board-four {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .main-board-five {
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .board-row {
+    display: flex;
+    width: 100%;
+    border: ridge;
+    }
+
+    .square {
+      width: 100%;
+      position: relative;
+      cursor: pointer;
+      background-size: 50% 47%;
+      padding: 0;
+      margin: 0;
+
+ */
